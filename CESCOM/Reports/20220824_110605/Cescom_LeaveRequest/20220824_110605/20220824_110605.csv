@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cescom_LeaveRequest,Chrome 104.0.5112.81,,,2022-08-24 11:06:16,2022-08-24 11:07:38,1m - 21.796s,FAILED
+,,,,,,,
+Test Cases/TC_Apply_CESCOM,Chrome 104.0.5112.81,,,2022-08-24 11:06:16,2022-08-24 11:07:10,54.288s,FAILED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-24 11:06:17,2022-08-24 11:06:20,2.692s,PASSED
+navigateToUrl(url),Chrome 104.0.5112.81,,,2022-08-24 11:06:20,2022-08-24 11:06:23,3.484s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-24 11:06:23,2022-08-24 11:06:23,0.145s,PASSED
+driver = getWebDriver(),Chrome 104.0.5112.81,,,2022-08-24 11:06:23,2022-08-24 11:06:23,0.008s,PASSED
+"setText(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input_Login to HRMS_UserName""), username)",Chrome 104.0.5112.81,,,2022-08-24 11:06:23,2022-08-24 11:06:24,1.136s,PASSED
+"setText(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input_Login to HRMS_Password""), password)",Chrome 104.0.5112.81,,,2022-08-24 11:06:24,2022-08-24 11:06:25,0.657s,PASSED
+"a = Integer.parseInt(xpath(""/html/body/div/div[1]/div[2]/div[2]/div/div/form/label/div/span[1]"")).getText())",Chrome 104.0.5112.81,,,2022-08-24 11:06:25,2022-08-24 11:06:25,0.311s,PASSED
+"b = Integer.parseInt(xpath(""/html/body/div/div[1]/div[2]/div[2]/div/div/form/label/div/span[2]"")).getText())",Chrome 104.0.5112.81,,,2022-08-24 11:06:25,2022-08-24 11:06:26,0.273s,PASSED
+output = String.valueOf(a + b),Chrome 104.0.5112.81,,,2022-08-24 11:06:26,2022-08-24 11:06:26,0.001s,PASSED
+"className(""submit__input"")).sendKeys(output)",Chrome 104.0.5112.81,,,2022-08-24 11:06:26,2022-08-24 11:06:26,0.302s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input__BtnLogin""))",Chrome 104.0.5112.81,,,2022-08-24 11:06:26,2022-08-24 11:06:35,8.980s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input_Accounts_undefined""), 10, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-24 11:06:35,2022-08-24 11:06:46,11.361s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/p""))",Chrome 104.0.5112.81,,,2022-08-24 11:06:46,2022-08-24 11:06:48,1.754s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input_Leave Calender_Leave Request""))",Chrome 104.0.5112.81,,,2022-08-24 11:06:48,2022-08-24 11:06:55,7.022s,PASSED
+"se2 = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.xpath(//*[@id=""ddlLeaveType""])))",Chrome 104.0.5112.81,,,2022-08-24 11:06:55,2022-08-24 11:06:56,1.223s,PASSED
+b3 = leavetype,Chrome 104.0.5112.81,,,2022-08-24 11:06:56,2022-08-24 11:06:56,0.001s,PASSED
+se2.selectByVisibleText(b3),Chrome 104.0.5112.81,,,2022-08-24 11:06:56,2022-08-24 11:06:56,0.319s,PASSED
+"setText(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/Page_HRMS/input__Leave_Requested""), leavesrequired)",Chrome 104.0.5112.81,,,2022-08-24 11:06:56,2022-08-24 11:06:59,2.733s,PASSED
+"setText(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/textarea__EmpComments""), reason)",Chrome 104.0.5112.81,,,2022-08-24 11:06:59,2022-08-24 11:07:00,0.848s,PASSED
+"se21 = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.xpath(//*[@id=""ddlLeaveGround""])))",Chrome 104.0.5112.81,,,2022-08-24 11:07:00,2022-08-24 11:07:01,0.528s,PASSED
+b31 = leavegrounds,Chrome 104.0.5112.81,,,2022-08-24 11:07:01,2022-08-24 11:07:01,0.001s,PASSED
+se21.selectByVisibleText(b31),Chrome 104.0.5112.81,,,2022-08-24 11:07:01,2022-08-24 11:07:01,0.346s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input__StartDate""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:01,2022-08-24 11:07:02,0.637s,PASSED
+"monthYear = ""August 2022""",Chrome 104.0.5112.81,,,2022-08-24 11:07:02,2022-08-24 11:07:02,0.001s,PASSED
+date = startdate,Chrome 104.0.5112.81,,,2022-08-24 11:07:02,2022-08-24 11:07:02,0.001s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/DatePicker""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:02,2022-08-24 11:07:02,0.831s,PASSED
+"for ([i = 1, i <= 12, (i++)])",Chrome 104.0.5112.81,,,2022-08-24 11:07:02,2022-08-24 11:07:08,5.917s,PASSED
+"click(findTestObject(""Object Repository/TC_Apply_CESCOM/Page_HRMS/input__btnSave""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:08,2022-08-24 11:07:10,1.259s,PASSED
+acceptAlert(),Chrome 104.0.5112.81,,,2022-08-24 11:07:10,2022-08-24 11:07:10,0.578s,FAILED
+,,,,,,,
+Test Cases/TC_Approval_CESCOM,Chrome 104.0.5112.81,,,2022-08-24 11:07:10,2022-08-24 11:07:38,27.301s,FAILED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-24 11:07:11,2022-08-24 11:07:13,1.821s,PASSED
+driver = getWebDriver(),Chrome 104.0.5112.81,,,2022-08-24 11:07:13,2022-08-24 11:07:13,0.000s,PASSED
+navigateToUrl(url),Chrome 104.0.5112.81,,,2022-08-24 11:07:13,2022-08-24 11:07:13,0.542s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-24 11:07:13,2022-08-24 11:07:14,0.136s,PASSED
+"setText(findTestObject(""Object Repository/TC_Approval_CESCOM/Page_HRMS/input_Login to HRMS_UserName""), username)",Chrome 104.0.5112.81,,,2022-08-24 11:07:14,2022-08-24 11:07:15,1.231s,PASSED
+"setText(findTestObject(""Object Repository/TC_Approval_CESCOM/Page_HRMS/input_Login to HRMS_Password""), password)",Chrome 104.0.5112.81,,,2022-08-24 11:07:15,2022-08-24 11:07:15,0.656s,PASSED
+"a = Integer.parseInt(xpath(""/html/body/div/div[1]/div[2]/div[2]/div/div/form/label/div/span[1]"")).getText())",Chrome 104.0.5112.81,,,2022-08-24 11:07:15,2022-08-24 11:07:16,0.277s,PASSED
+"b = Integer.parseInt(xpath(""/html/body/div/div[1]/div[2]/div[2]/div/div/form/label/div/span[2]"")).getText())",Chrome 104.0.5112.81,,,2022-08-24 11:07:16,2022-08-24 11:07:16,0.278s,PASSED
+output = String.valueOf(a + b),Chrome 104.0.5112.81,,,2022-08-24 11:07:16,2022-08-24 11:07:16,0.000s,PASSED
+"className(""submit__input"")).sendKeys(output)",Chrome 104.0.5112.81,,,2022-08-24 11:07:16,2022-08-24 11:07:16,0.309s,PASSED
+"click(findTestObject(""Object Repository/TC_Approval_CESCOM/Page_HRMS/input__BtnLogin""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:16,2022-08-24 11:07:23,7.164s,PASSED
+"click(findTestObject(""Object Repository/TC_Approval_CESCOM/Page_HRMS/p""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:23,2022-08-24 11:07:34,10.516s,PASSED
+"se2 = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.xpath(//*[@id=""ddlSubject""])))",Chrome 104.0.5112.81,,,2022-08-24 11:07:34,2022-08-24 11:07:35,1.539s,PASSED
+b3 = Subject,Chrome 104.0.5112.81,,,2022-08-24 11:07:35,2022-08-24 11:07:35,0.001s,PASSED
+se2.selectByVisibleText(b3),Chrome 104.0.5112.81,,,2022-08-24 11:07:35,2022-08-24 11:07:36,0.790s,PASSED
+"sendKeys(findTestObject(""Object Repository/TC_Approval_CESCOM/Page_HRMS/Page_HRMS/Search_Box_Approval""), Search_Box)",Chrome 104.0.5112.81,,,2022-08-24 11:07:36,2022-08-24 11:07:37,0.970s,PASSED
+"click(findTestObject(""Approval/Page_HRMS/approver""))",Chrome 104.0.5112.81,,,2022-08-24 11:07:37,2022-08-24 11:07:38,0.273s,FAILED

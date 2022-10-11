@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Approval_CESCOM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7843046f-f96c-4bf0-88ee-6b96bb88abf2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>049eeb8c-0c01-4214-8f06-937b60f1780f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8ef8fe1-4f88-4019-beec-9c2d0ad7470d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f34241d0-17a0-4de2-b6ce-03aa1b843bb8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65f5bf25-37fd-40fe-a76c-c931856b6619</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9713dc1d-5fad-4673-9fdf-838769ee74d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae9f44ae-adc5-4e94-ba52-4a73ee2b3c30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d84e051-9be8-4aed-8d73-4ab65d327900</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82ac4c34-89e5-47e1-93d5-c00b84343762</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef8f8f11-16e1-4f3e-8d73-9fa9190adf7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e95a58b1-92f5-4e40-8fb3-33243ad65e49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>049eeb8c-0c01-4214-8f06-937b60f1780f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f8ef8fe1-4f88-4019-beec-9c2d0ad7470d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>f34241d0-17a0-4de2-b6ce-03aa1b843bb8</id>
+      <masked>false</masked>
+      <name>remarks</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(19, 1)</defaultValue>
+      <description></description>
+      <id>65f5bf25-37fd-40fe-a76c-c931856b6619</id>
+      <masked>false</masked>
+      <name>Subject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(20, 1)</defaultValue>
+      <description></description>
+      <id>9713dc1d-5fad-4673-9fdf-838769ee74d5</id>
+      <masked>false</masked>
+      <name>SentBy</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(11, 1)</defaultValue>
+      <description></description>
+      <id>ae9f44ae-adc5-4e94-ba52-4a73ee2b3c30</id>
+      <masked>false</masked>
+      <name>startdate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>9d84e051-9be8-4aed-8d73-4ab65d327900</id>
+      <masked>false</masked>
+      <name>Month1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(21, 1)</defaultValue>
+      <description></description>
+      <id>82ac4c34-89e5-47e1-93d5-c00b84343762</id>
+      <masked>false</masked>
+      <name>End_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>ef8f8f11-16e1-4f3e-8d73-9fa9190adf7a</id>
+      <masked>false</masked>
+      <name>Search_Box</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MysoreTestData').getValue(12, 1)</defaultValue>
+      <description></description>
+      <id>e95a58b1-92f5-4e40-8fb3-33243ad65e49</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
